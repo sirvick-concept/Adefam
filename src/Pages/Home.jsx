@@ -1,8 +1,8 @@
-import Hero from "../components/Hero";
-import FeaturedCourses from "../components/FeaturedCourses";
-import Testimonials from "../components/Testimonials";
-import Partners from "../components/Partners";
-import CTA from "../components/CTA";
+import Hero from "../Components/Hero";
+import FeaturedCourses from "../Components/FeaturedCourses";
+import Testimonials from "../Components/Testimonials";
+import Partners from "../Components/Partners";
+import CTA from "../Components/CTA";
 import Contacts from "../Components/Contacts";
 
 const Home = () => {
