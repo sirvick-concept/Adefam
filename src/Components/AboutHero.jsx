@@ -1,4 +1,4 @@
-import heroImage1 from "../assets/hero-image1.jpg";
+import AboutHero1 from "../assets/about-hero.png";
 
 const AboutHero = () => {
   return (
@@ -27,7 +27,7 @@ const AboutHero = () => {
           <div className="w-full flex justify-center lg:justify-end">
             <div className="w-full max-w-60 sm:max-w-70 md:max-w-[320px]">
               <img
-                src={heroImage1}
+                src={AboutHero1}
                 alt="Student Learning"
                 className="w-full h-auto rounded-full object-cover shadow-lg"
               />
