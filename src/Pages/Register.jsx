@@ -35,32 +35,8 @@ const Register = () => {
               Get started in just a few minutes.
             </p>
 
-            {/* Google Signup */}
-            <button
-              type="button"
-              className="mt-6 w-full flex items-center justify-center gap-3 border border-gray-200 rounded-xl py-3 font-medium text-gray-700 hover:bg-gray-50 transition"
-            >
-              <img
-                src="https://www.svgrepo.com/show/475656/google-color.svg"
-                alt="Google"
-                className="w-5 h-5"
-              />
-
-              Continue with Google
-            </button>
-
-            {/* Divider */}
-            <div className="relative my-5">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-gray-200"></div>
-              </div>
-
-              <div className="relative flex justify-center text-sm">
-                <span className="bg-white px-4 text-gray-400">
-                  OR
-                </span>
-              </div>
-            </div>
+            
+            
 
             <form className="space-y-4">
 
@@ -136,6 +112,34 @@ const Register = () => {
                 Create Account
               </button>
             </form>
+
+            {/* Divider */}
+            <div className="relative my-5">
+              <div className="absolute inset-0 flex items-center">
+                <div className="w-full border-t border-gray-200"></div>
+              </div>
+
+              <div className="relative flex justify-center text-sm">
+                <span className="bg-white px-4 text-gray-400">
+                  OR
+                </span>
+              </div>
+            </div>
+
+            {/* Google Signup */}
+            <button
+              type="button"
+              className="mt-6 w-full flex items-center justify-center gap-3 border border-gray-200 rounded-xl py-3 font-medium text-gray-700 hover:bg-gray-50 transition"
+            >
+              <img
+                src="https://www.svgrepo.com/show/475656/google-color.svg"
+                alt="Google"
+                className="w-5 h-5"
+              />
+
+              Continue with Google
+            </button>
+
 
             <p className="mt-6 text-center text-gray-500 text-sm">
               Already have an account?{" "}
