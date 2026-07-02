@@ -1,4 +1,4 @@
-import FeaturedCourses from "../components/FeaturedCourses";
+import FeaturedCourses from "../Components/FeaturedCourses";
 
 const Courses = () => {
   return (

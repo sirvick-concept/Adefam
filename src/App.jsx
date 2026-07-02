@@ -3,16 +3,16 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Courses from "./pages/Courses";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Courses from "./Pages/Courses";
 import Blog from "./Components/Blog";
-import Contact from "./pages/Contact";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
-import BlogDetails from "./pages/BlogDetails";
-import StudentDashboard from "./pages/StudentDashboard";
+import BlogDetails from "./Pages/BlogDetails";
+import StudentDashboard from "./Pages/StudentDashboard";
 
 
 function App() {

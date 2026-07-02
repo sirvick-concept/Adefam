@@ -1,7 +1,7 @@
-import AboutHero from "../components/AboutHero";
-import MissionVision from "../components/MissionVision";
+import AboutHero from "../Components/AboutHero";
+import MissionVision from "../Components/MissionVision";
 import Target from "../Components/Target";
-import Team from "../components/Team";
+import Team from "../Components/Team";
 import WhyChooseUs from "../Components/WhyChooseUs";
 
 
