@@ -75,7 +75,7 @@ const Login = () => {
 
               <a
                 href="#"
-                className="text-sm text-orange-600 hover:text-orange-700"
+                className="text-sm text-[#F09818] hover:text-[#DD8A16]"
               >
                 Forgot Password?
               </a>
@@ -90,7 +90,7 @@ const Login = () => {
 
           <button
             type="submit"
-            className="w-full rounded-2xl bg-orange-600 hover:bg-orange-700 text-white py-3 font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-orange-200"
+            className="w-full rounded-2xl bg-[#F09818] hover:bg-[#DD8A16] text-white py-3 font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-orange-200"
           >
             Login
           </button>
@@ -145,7 +145,7 @@ const Login = () => {
           Don't have an account?{" "}
           <a
             href="/register"
-            className="font-semibold text-orange-600 hover:text-orange-700"
+            className="font-semibold text-[#F09818] hover:text-[#DD8A16]"
           >
             Create Account
           </a>

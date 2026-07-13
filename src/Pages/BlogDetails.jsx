@@ -27,7 +27,7 @@ function BlogDetails() {
       />
 
       {/* Category */}
-      <span className="text-orange-600 font-semibold">
+      <span className="text-[#F09818] font-semibold">
         {post.category}
       </span>
 

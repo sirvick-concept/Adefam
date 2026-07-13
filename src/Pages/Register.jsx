@@ -98,7 +98,7 @@ const Register = () => {
                   I agree to the{" "}
                   <a
                     href="/terms"
-                    className="text-orange-600 hover:text-orange-700"
+                    className="text-[#F09818] hover:text-[#DD8A16]"
                   >
                     Terms & Conditions
                   </a>
@@ -107,7 +107,7 @@ const Register = () => {
 
               <button
                 type="submit"
-                className="w-full rounded-xl bg-orange-600 hover:bg-orange-700 text-white py-3 font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-orange-200"
+                className="w-full rounded-xl bg-[#F09818] hover:bg-[#DD8A16] text-white py-3 font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-orange-200"
               >
                 Create Account
               </button>
@@ -145,7 +145,7 @@ const Register = () => {
               Already have an account?{" "}
               <a
                 href="/login"
-                className="font-semibold text-orange-600 hover:text-orange-700"
+                className="font-semibold text-[#F09818] hover:text-[#DD8A16]"
               >
                 Login
               </a>
