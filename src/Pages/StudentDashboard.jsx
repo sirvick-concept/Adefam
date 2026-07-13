@@ -33,7 +33,7 @@ function StudentDashboard() {
           <img
             src="/Tech.png"
             alt="Student Profile"
-            className="w-20 h-20 rounded-full object-cover border-4 border-orange-500"
+            className="w-20 h-20 rounded-full object-cover border-4 border-[#F09818]"
           />
 
           <h2 className="mt-3 font-bold text-gray-800">
@@ -45,7 +45,7 @@ function StudentDashboard() {
           </p>
         </div>
 
-        <h1 className="text-xl font-bold text-orange-600 mb-6">
+        <h1 className="text-xl font-bold text-[#F09818] mb-6">
           Adefam Infotech
         </h1>
 
@@ -56,7 +56,7 @@ function StudentDashboard() {
               onClick={() => setActiveTab(item.id)}
               className={`w-full text-left px-3 py-2 rounded-lg transition ${
                 activeTab === item.id
-                  ? "bg-orange-600 text-white"
+                  ? "bg-[#F09818] text-white"
                   : "hover:bg-gray-100"
               }`}
             >
@@ -67,7 +67,7 @@ function StudentDashboard() {
 
         <button
           onClick={handleLogout}
-          className="mt-10 w-full bg-orange-600 text-white py-2 rounded-lg hover:bg-orange-800"
+          className="mt-10 w-full bg-[#F09818] text-white py-2 rounded-lg hover:bg-[#DD8A16]"
         >
           Logout
         </button>
@@ -84,7 +84,7 @@ function StudentDashboard() {
 
           <button
             onClick={handleLogout}
-            className="md:hidden bg-orange-600 text-white px-3 py-1 rounded"
+            className="md:hidden bg-[#F09818] text-white px-3 py-1 rounded"
           >
             Logout
           </button>
@@ -106,17 +106,17 @@ function StudentDashboard() {
 
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white p-5 rounded-xl shadow">
-                  <h3 className="font-bold text-orange-600">Courses</h3>
+                  <h3 className="font-bold text-[#F09818]">Courses</h3>
                   <p className="text-gray-600">3 Active Courses</p>
                 </div>
 
                 <div className="bg-white p-5 rounded-xl shadow">
-                  <h3 className="font-bold text-orange-600">Assignments</h3>
+                  <h3 className="font-bold text-[#F09818]">Assignments</h3>
                   <p className="text-gray-600">2 Pending</p>
                 </div>
 
                 <div className="bg-white p-5 rounded-xl shadow">
-                  <h3 className="font-bold text-orange-600">Certificates</h3>
+                  <h3 className="font-bold text-[#F09818]">Certificates</h3>
                   <p className="text-gray-600">1 Completed</p>
                 </div>
               </div>
