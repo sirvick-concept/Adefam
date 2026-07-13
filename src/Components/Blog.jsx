@@ -9,7 +9,7 @@ const Blog = () => {
 
         {/* Header */}
         <div className="text-center">
-          <span className="text-orange-600 font-semibold uppercase tracking-wider text-lg sm:text-2lg">
+          <span className="text-[#F09818] font-semibold uppercase tracking-wider text-lg sm:text-2lg">
             Our Blog
           </span>
 
@@ -46,7 +46,7 @@ const Blog = () => {
               {/* Content */}
               <div className="p-4 sm:p-6">
 
-                <span className="text-xs sm:text-sm text-orange-600 font-medium">
+                <span className="text-xs sm:text-sm text-[#F09818] font-medium">
                   {post.category}
                 </span>
 
@@ -64,7 +64,7 @@ const Blog = () => {
 
                 <Link
   to={`/blog/${post.id}`}
-  className="inline-block mt-4 sm:mt-5 text-orange-600 text-sm font-medium hover:text-orange-700 transition"
+  className="inline-block mt-4 sm:mt-5 text-[#F09818] text-sm font-medium hover:text-[#DD8A16] transition"
 >
   Read More →
 </Link>
