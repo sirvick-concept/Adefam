@@ -13,7 +13,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F09818] text-white pt-14 sm:pt-20 pb-6 px-4 sm:px-6 lg:px-12">
+    <footer className="bg-[#F09818] text-black pt-14 sm:pt-20 pb-6 px-4 sm:px-6 lg:px-12">
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12">
 
@@ -25,7 +25,7 @@ const Footer = () => {
             <span className="text-white">Computer Infotech</span> */}
           </Link>
 
-          <p className="mt-4 sm:mt-5 text-sm text-white leading-relaxed">
+          <p className="mt-4 sm:mt-5 text-sm text-black leading-relaxed">
             We believe in the power of innovation! <br />
             Built by passionate people shaping the future of tech.
           </p>
@@ -33,37 +33,37 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="lg:pl-15">
-          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
+          <h3 className="text-black font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
             Quick Links
           </h3>
 
           <ul className=" space-y-2 sm:space-y-3 text-sm">
             <li>
-              <Link to="/" className="hover:text-white transition">
+              <Link to="/" className="hover:text-black transition">
                 Home
               </Link>
             </li>
 
             <li>
-              <Link to="/about" className="hover:text-white transition">
+              <Link to="/about" className="hover:text-black transition">
                 About
               </Link>
             </li>
 
             <li>
-              <Link to="/courses" className="hover:text-white transition">
+              <Link to="/courses" className="hover:text-black transition">
                 Courses
               </Link>
             </li>
 
             <li>
-              <Link to="/blog" className="hover:text-white transition">
+              <Link to="/blog" className="hover:text-black transition">
                 Blog
               </Link>
             </li>
 
             <li>
-              <Link to="/contact" className="hover:text-white transition">
+              <Link to="/contact" className="hover:text-black transition">
                 Contact
               </Link>
             </li>
@@ -72,7 +72,7 @@ const Footer = () => {
 
         {/* Social */}
         <div>
-          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
+          <h3 className="text-black font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
             Stay Connected
           </h3>
 
@@ -151,11 +151,11 @@ const Footer = () => {
 
         {/* Contact */}
         <div className="lg:pl-15">
-          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
+          <h3 className="text-black font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
             Contact Info
           </h3>
 
-          <p className="text-sm text-white leading-relaxed">
+          <p className="text-sm text-black leading-relaxed">
             Osogbo, Osun State <br />
             Nigeria <br />
             support@adefam.com <br />
@@ -166,7 +166,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-slate-700 mt-10 sm:mt-12 pt-5 sm:pt-6 text-center text-xs sm:text-sm text-white px-2">
+      <div className="border-t border-slate-700 mt-10 sm:mt-12 pt-5 sm:pt-6 text-center text-xs sm:text-sm text-black px-2">
         © {new Date().getFullYear()} AdefamInfoTech. All rights reserved.
       </div>
 
