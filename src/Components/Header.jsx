@@ -39,7 +39,7 @@ const Header = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className="text-slate-700 font-medium hover:text-orange-500 transition"
+                className="text-slate-700 font-medium hover:text-[#F09818] transition"
               >
                 {link.name}
               </Link>
@@ -50,14 +50,14 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-3">
             <Link
               to="/login"
-              className="px-5 py-2 border border-orange-400 text-orange-400 rounded-lg hover:bg-blue-50 transition"
+              className="px-5 py-2 border border-[#F09818] text-[#F09818] rounded-lg hover:bg-blue-50 transition"
             >
               Login
             </Link>
 
             <Link
               to="/register"
-              className="px-5 py-2 bg-orange-400 text-white rounded-lg hover:bg-orange-500 transition shadow-md"
+              className="px-5 py-2 bg-[#F09818] text-white rounded-lg hover:bg-[#DD8A16] transition shadow-md"
             >
               Register
             </Link>
@@ -87,7 +87,7 @@ const Header = () => {
               key={link.name}
               to={link.path}
               onClick={() => setIsOpen(false)}
-              className="text-slate-700 hover:text-orange-400 font-medium"
+              className="text-slate-700 hover:text-[#F09818] font-medium"
             >
               {link.name}
             </Link>
@@ -97,7 +97,7 @@ const Header = () => {
           <Link
             to="/login"
             onClick={() => setIsOpen(false)}
-            className="w-full py-3 border border-orange-400 text-blue-600 rounded-lg text-center"
+            className="w-full py-3 border border-[#F09818] text-[#F09818] rounded-lg text-center"
           >
             Login
           </Link>
@@ -105,7 +105,7 @@ const Header = () => {
           <Link
             to="/register"
             onClick={() => setIsOpen(false)}
-            className="w-full py-3 bg-orange-400 text-white rounded-lg text-center"
+            className="w-full py-3 bg-[#F09818] text-white rounded-lg text-center"
           >
             Register
           </Link>

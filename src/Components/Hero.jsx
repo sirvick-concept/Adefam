@@ -20,14 +20,14 @@ const Hero = () => {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
               Learn In-Demand
-              <span className="block text-orange-600">
+              <span className="block text-[#F09818]">
                 Tech Skills
               </span>
             </h1>
 
             <p className="mt-5 text-base sm:text-lg text-slate-600 max-w-lg mx-auto lg:mx-0">
               We believe in the power of innovation!
-              <span className="block text-orange-600">
+              <span className="block text-[#F09818]">
                 coming from passionate people & creative thinkers.
               </span>
             </p>
@@ -37,7 +37,7 @@ const Hero = () => {
 
               <Link
                 to="/register"
-                className="w-full sm:w-auto px-8 py-4 bg-orange-600 text-white rounded-xl font-medium hover:bg-orange-700 transition text-center"
+                className="w-full sm:w-auto px-8 py-4 bg-[#F09818] text-white rounded-xl font-medium hover:bg-[#DD8A16] transition text-center"
               >
                 Register Now
               </Link>
@@ -98,7 +98,7 @@ const Hero = () => {
             {/* Mobile Cards */}
             <div className="flex md:hidden gap-3 mt-4 z-20">
               <div className="bg-white shadow-lg rounded-xl px-4 py-3">
-                <h4 className="font-bold text-orange-600">5000+</h4>
+                <h4 className="font-bold text-[#F09818]">5000+</h4>
                 <p className="text-xs text-slate-500">Students</p>
               </div>
 
@@ -110,7 +110,7 @@ const Hero = () => {
 
             {/* Desktop Floating Card 1 */}
             <div className="hidden md:block absolute top-16 left-0 lg:left-5 bg-white shadow-xl rounded-2xl px-4 py-3 z-20">
-              <h4 className="text-xl font-bold text-orange-600">5000+</h4>
+              <h4 className="text-xl font-bold text-[#F09818]">5000+</h4>
               <p className="text-sm text-slate-500">Students</p>
             </div>
 
