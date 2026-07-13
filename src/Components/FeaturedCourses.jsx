@@ -55,7 +55,7 @@ const FeaturedCourses = () => {
 
                 {/* Title */}
                 <h3 className="mt-3 sm:mt-4 font-semibold text-base sm:text-lg
-                               group-hover:text-orange-600 transition-colors">
+                               group-hover:text-[#F09818] transition-colors">
                   {course.title}
                 </h3>
 

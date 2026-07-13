@@ -13,7 +13,7 @@ const Partners = () => {
 
         {/* Heading */}
         <div className="text-center">
-          <span className="text-orange-600 font-semibold uppercase tracking-wider text-xs sm:text-sm">
+          <span className="text-[#F09818] font-semibold uppercase tracking-wider text-xs sm:text-sm">
             Trusted By
           </span>
 

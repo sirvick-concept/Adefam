@@ -31,7 +31,7 @@ const Contacts = () => {
             className="w-full p-3 rounded-lg border"
           ></textarea>
 
-          <button className="w-full bg-blue-600 text-white py-3 mt-5 rounded-lg hover:bg-blue-700">
+          <button className="w-full bg-[#F09818] text-white py-3 mt-5 rounded-lg hover:bg-[#DD8A16]">
             Send Message
           </button>
         </form>
