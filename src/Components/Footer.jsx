@@ -166,9 +166,9 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-slate-700 mt-10 sm:mt-12 pt-5 sm:pt-6 text-center text-xs sm:text-sm text-white">
-        © {new Date().getFullYear()} AdefamInfoTech. All rights reserved.
-      </div>
+      <div className="-mx-4 sm:-mx-6 lg:-mx-12 border-t border-white/20 mt-10 pt-6 text-center">
+  © {new Date().getFullYear()} AdefamInfoTech. All rights reserved.
+</div>
 
     </footer>
   );

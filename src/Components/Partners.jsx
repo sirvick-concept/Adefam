@@ -3,7 +3,7 @@ const partners = [
   { name: "Microsoft", logo: "/logos/microsoft.avif" },
   { name: "Amazon", logo: "/logos/amazon.avif" },
   { name: "Meta", logo: "/logos/meta.avif" },
-  { name: "DSN", logo: "/logos/google1.avif" },
+  { name: "DSN", logo: "/logos/dsn.png"},
 ];
 
 const Partners = () => {
