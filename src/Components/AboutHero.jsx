@@ -29,7 +29,7 @@ const AboutHero = () => {
               <img
                 src={AboutHero1}
                 alt="Student Learning"
-                className="w-full h-auto rounded-full object-cover shadow-lg"
+                className="w-full h-full rounded-full object-cover shadow-lg"
               />
             </div>
           </div>

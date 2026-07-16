@@ -1,15 +1,15 @@
 const testimonials = [
   {
     name: "Ayo Johnson",
-    text: "This platform helped me land my first developer job!",
+    text: "AdefamInfoTech transformed my curiosity into real skills. As a beginner, I now have the confidence to build websites and continue my journey in tech.",
   },
   {
     name: "Mary David",
-    text: "The courses are very practical and easy to follow.",
+    text: "I started this journey with zero coding knowledge. Thanks to the practical training and guidance at AdefamInfoTech, I've gained valuable web development skills and the confidence to keep growing in tech.",
   },
   {
     name: "Samuel Peter",
-    text: "I love how structured and beginner-friendly it is.",
+    text: "As a beginner, I had no experience in tech, but the lessons are easy to understand and the instructors are very supportive. I'm now building websites with confidence.",
   },
 ];
 

@@ -28,7 +28,7 @@ const CTA = () => {
         className="w-full sm:w-auto px-8 py-4
                    bg-[#F09818]
                    hover:bg-[#DD8A16]
-                   text-slate-900
+                   text-white
                    rounded-xl
                    font-semibold
                    transition-all
@@ -46,7 +46,7 @@ const CTA = () => {
                    border-[#F09818]
                    text-[#F09818]
                    hover:bg-[#F09818]
-                   hover:text-slate-900
+                   hover:text-white
                    rounded-xl
                    font-semibold
                    transition-all

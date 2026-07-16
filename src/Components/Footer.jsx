@@ -158,8 +158,8 @@ const Footer = () => {
           <p className="text-base text-white leading-relaxed">
             Osogbo, Osun State <br />
             Nigeria <br />
-            support@adefam.com <br />
-            +234 8032366804
+            adefamcomputers@gmail.com <br />
+            +234 803 236 6804
           </p>
         </div>
 

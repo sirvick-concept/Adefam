@@ -9,8 +9,8 @@ const Contacts = () => {
           </p>
 
           <div className="mt-6 text-gray-600 space-y-2">
-            <p>Email: AdefamInfotech@gmail.com </p>
-            <p>Phone: +234 8032366804</p>
+            <p>Email: adefamcomputers@gmail.com </p>
+            <p>Phone: +234 803 236 6804</p>
           </div>
         </div>
 
