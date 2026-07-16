@@ -25,14 +25,14 @@ const AboutHero = () => {
 
           {/* IMAGE */}
           <div className="w-full flex justify-center lg:justify-end">
-            <div className="w-full max-w-60 sm:max-w-70 md:max-w-[320px]">
-              <img
-                src={AboutHero1}
-                alt="Student Learning"
-                 className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full object-cover object-top shadow-lg"
-              />
-            </div>
-          </div>
+  <div className="w-full max-w-60 sm:max-w-70 md:max-w-[320px] flex justify-center lg:justify-end">
+    <img
+      src={AboutHero1}
+      alt="Student Learning"
+      className="w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full object-cover object-top shadow-lg"
+    />
+  </div>
+</div>
 
         </div>
       </div>
