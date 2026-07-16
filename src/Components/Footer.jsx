@@ -39,31 +39,31 @@ const Footer = () => {
 
           <ul className=" space-y-2 sm:space-y-3 text-sm">
             <li>
-              <Link to="/" className="hover:text-white transition">
+              <Link to="/" className="hover:text-white/40 transition">
                 Home
               </Link>
             </li>
 
             <li>
-              <Link to="/about" className="hover:text-white transition">
+              <Link to="/about" className="hover:text-white/40 transition">
                 About
               </Link>
             </li>
 
             <li>
-              <Link to="/courses" className="hover:text-white transition">
+              <Link to="/courses" className="hover:text-white/40 transition">
                 Courses
               </Link>
             </li>
 
             <li>
-              <Link to="/blog" className="hover:text-white transition">
+              <Link to="/blog" className="hover:text-white/40 transition">
                 Blog
               </Link>
             </li>
 
             <li>
-              <Link to="/contact" className="hover:text-white transition">
+              <Link to="/contact" className="hover:text-white/40 transition">
                 Contact
               </Link>
             </li>
