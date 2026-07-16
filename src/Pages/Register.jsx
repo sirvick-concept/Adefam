@@ -91,7 +91,7 @@ const Register = () => {
               <label className="flex items-start gap-3 text-sm text-gray-600">
                 <input
                   type="checkbox"
-                  className="mt-1 [#DD8A16]"
+                  className="mt-1 accent-[#DD8A16]"
                 />
 
                 <span>
