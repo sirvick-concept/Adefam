@@ -44,7 +44,7 @@ const Partners = () => {
                 <img
                   src={partner.logo}
                   alt={partner.name}
-                  className="h-10 w-10 sm:h-14 sm:w-14 rounded-full border-[#F09818] object-cover
+                  className="h-10 w-10 sm:h-14 sm:w-14 rounded-full border-4 border-[#F09818] object-cover
                              group-hover:scale-110 transition-transform duration-300"
                 />
 

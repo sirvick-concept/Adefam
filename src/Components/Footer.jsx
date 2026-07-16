@@ -37,33 +37,33 @@ const Footer = () => {
             Quick Links
           </h3>
 
-          <ul className=" space-y-2 sm:space-y-3 text-sm">
+          <ul className=" space-y-2 sm:space-y-3 text-lg">
             <li>
-              <Link to="/" className="hover:text-white/40 transition">
+              <Link to="/" className="hover:text-white/60 transition">
                 Home
               </Link>
             </li>
 
             <li>
-              <Link to="/about" className="hover:text-white/40 transition">
+              <Link to="/about" className="hover:text-white/60 transition">
                 About
               </Link>
             </li>
 
             <li>
-              <Link to="/courses" className="hover:text-white/40 transition">
+              <Link to="/courses" className="hover:text-white/60 transition">
                 Courses
               </Link>
             </li>
 
             <li>
-              <Link to="/blog" className="hover:text-white/40 transition">
+              <Link to="/blog" className="hover:text-white/60 transition">
                 Blog
               </Link>
             </li>
 
             <li>
-              <Link to="/contact" className="hover:text-white/40 transition">
+              <Link to="/contact" className="hover:text-white/60 transition">
                 Contact
               </Link>
             </li>
