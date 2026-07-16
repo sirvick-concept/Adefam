@@ -25,7 +25,7 @@ const Footer = () => {
             <span className="text-white">Computer Infotech</span> */}
           </Link>
 
-          <p className="mt-4 sm:mt-5 text-sm text-white leading-relaxed">
+          <p className="mt-4 sm:mt-5 text-base text-white leading-relaxed">
             We believe in the power of innovation! <br />
             Built by passionate people shaping the future of tech.
           </p>
@@ -33,11 +33,11 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="lg:pl-15">
-          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
+          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-lg sm:text-lg">
             Quick Links
           </h3>
 
-          <ul className=" space-y-2 sm:space-y-3 text-lg">
+          <ul className=" space-y-2 sm:space-y-3 text-base">
             <li>
               <Link to="/" className="hover:text-white/60 transition">
                 Home
@@ -72,7 +72,7 @@ const Footer = () => {
 
         {/* Social */}
         <div>
-          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
+          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-lg sm:text-lg">
             Stay Connected
           </h3>
 
@@ -151,11 +151,11 @@ const Footer = () => {
 
         {/* Contact */}
         <div className="lg:pl-15">
-          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-base sm:text-lg">
+          <h3 className="text-white font-semibold mb-4 sm:mb-5 text-lg sm:text-lg">
             Contact Info
           </h3>
 
-          <p className="text-sm text-white leading-relaxed">
+          <p className="text-base text-white leading-relaxed">
             Osogbo, Osun State <br />
             Nigeria <br />
             support@adefam.com <br />
