@@ -7,7 +7,7 @@ const blogData = [
   image: "/Blog1.jpg",
 
   images: [
-    "/webdev1.jpg",
+    "/webdev1.png",
     "/webdev2.jpg",
     "/webdev3.jpg"
   ],
@@ -62,7 +62,7 @@ Designers who stay updated with these trends will remain highly valuable in the 
   images: [
     "/data1.jpg",
     "/data2.jpg",
-    "/data3.png"
+    "/data3.jpg"
   ],
 
   excerpt:
